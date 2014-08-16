@@ -25,31 +25,43 @@ Power Users / Consultants
 '''''''''''''''''''''''''
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    intro
    installation
    apps
-   x-tutorial
+
+.. toctree::
+   :maxdepth: 1
+
+      x-tutorial
 
 Web-Designers
 '''''''''''''
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    intro
    installation
    apps
+
+.. toctree::
+   :maxdepth: 1
+
    y-tutorial
 
 Developers
 ''''''''''
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
 
    intro
    installation
    apps
+
+.. toctree::
+   :maxdepth: 1
+
    z-tutorial
