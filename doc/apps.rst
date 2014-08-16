@@ -30,5 +30,5 @@ Manufacturing
 =============
 [...]
 
-etc
-===
+etcetera
+========
