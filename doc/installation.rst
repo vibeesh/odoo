@@ -11,7 +11,10 @@ Installation of Odoo is really easy. We built a comprehensive library of best
 practices coded into a human readable installation protocol language called Ansible.
 Those protocols are well commented so you might find all the information you need right at the source.
 
-What you need for a kickstart is::
+What you need for a kickstart is
+.. code-block:: python
+    :linenos:
+
     ubuntu 14.04 LTS # A local Virtual Machine is recommended, you can find some preconfigured boxes at vagrant.com/odoo
     if Windows == True: Oracle VirtualBox
     sudo apt-get install ansible # you cann browse available protocols ("playbooks") here: www.github.com/odoo/playbooks
