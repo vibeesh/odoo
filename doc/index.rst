@@ -1,63 +1,55 @@
 :orphan:
 
 ========================================
-OpenERP Server Developers Documentation
+Odoo Documentation
 ========================================
 
-Howto
-'''''
+Welcome to the Odoo Docuemtnation Homebase. Any question that might be left unanswered, you can ask the experts at forum.odoo.com. When you feel ready don't hesitate to contact your nearby implementation partner. (Link)
+Below, we gathered together the most interesting articles for you. Enjoy the steep learning curve with which we aim to provide you here!
 
-.. toctree::
-    :maxdepth: 1
+If you consider yourself a user, pleas note, that we have built in great walk-through into the software itself. You can just explore:
+- For Playing:   Clean Database (link: demo.odoo.com/clean)
+- For Exploring: Full Demo-Database (link: demo.odoo.com/full)
 
-    howto/howto_website
-
-OpenERP Server
-''''''''''''''
-
-.. toctree::
-   :maxdepth: 2
-
-   01_getting_started
-   02_architecture
-   03_module_dev
-   04_security
-   workflows
-   05_test_framework
-   06_misc
-   deployment-gunicorn
-   deployment-mod-wsgi
-   form-view-guidelines
-   ir_actions
-
-OpenERP Server API
-''''''''''''''''''
-
-.. toctree::
-   :maxdepth: 1
-
-   new_api
-   orm-methods
-   api_models
-   routing
-
-Changelog
+Customers
 '''''''''
 
 .. toctree::
    :maxdepth: 1
 
-   changelog.rst
+   intro
+   installation
+   apps
 
-Concepts
-''''''''
+Power Users / Consultants
+'''''''''''''''''''''''''
 
-.. glossary::
+.. toctree::
+   :maxdepth: 1
 
-    Database ID
+   intro
+   installation
+   apps
+   x-tutorial
 
-        The primary key of a record in a PostgreSQL table (or a
-        virtual version thereof), usually varies from one database to
-        the next.
+Web-Designers
+'''''''''''''
 
-    External ID
+.. toctree::
+   :maxdepth: 1
+
+   intro
+   installation
+   apps
+   y-tutorial
+
+Developers
+''''''''''
+
+.. toctree::
+   :maxdepth: 1
+
+   intro
+   installation
+   apps
+   z-tutorial
