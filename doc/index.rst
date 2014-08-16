@@ -14,6 +14,21 @@ Below, we gathered together the most interesting articles for you. Enjoy the ste
 
    - For Exploring: Full Demo-Database (link: demo.odoo.com/full)
 
++---------------------+---------------------+---------------------+---------------------+
+| Customers           | PwrUser/Consultant  | Web-Designer        | Developer           |
++=====================+=====================+=====================+=====================+
+| :doc:`intro`        | :doc:`intro`        | :doc:`intro`        | :doc:`intro`        |
++---------------------+---------------------+---------------------+---------------------+
+| :doc:`installation` | :doc:`installation` | :doc:`installation` | :doc:`installation` |
++---------------------+---------------------+---------------------+---------------------+
+| :doc:`apps`         | :doc:`apps`         | :doc:`apps`         | :doc:`apps`         |
++---------------------+---------------------+---------------------+---------------------+
+|                     | :doc:`x-tutorial`   | :doc:`y-tutorial`   | :doc:`z-tutorial`   |
++---------------------+---------------------+---------------------+---------------------+
+
+
+Table is better than the following structure, right?
+
 Customers
 '''''''''
 
