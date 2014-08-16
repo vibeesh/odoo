@@ -24,12 +24,9 @@ Customers
 Power Users / Consultants
 '''''''''''''''''''''''''
 
-.. toctree::
-   :maxdepth: 0
-
-   intro
-   installation
-   apps
+   :doc:`intro`
+   :doc:`installation`
+   :doc:`apps`
 
 .. toctree::
    :maxdepth: 1
@@ -39,12 +36,9 @@ Power Users / Consultants
 Web-Designers
 '''''''''''''
 
-.. toctree::
-   :maxdepth: 0
-
-   intro
-   installation
-   apps
+   :doc:`intro`
+   :doc:`installation`
+   :doc:`apps`
 
 .. toctree::
    :maxdepth: 1
@@ -54,12 +48,9 @@ Web-Designers
 Developers
 ''''''''''
 
-.. toctree::
-   :maxdepth: 0
-
-   intro
-   installation
-   apps
+   :doc:`intro`
+   :doc:`installation`
+   :doc:`apps`
 
 .. toctree::
    :maxdepth: 1
