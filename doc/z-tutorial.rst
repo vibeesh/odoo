@@ -1,5 +1,5 @@
 ========================================
-Developper Tutorial
+Tutorial: Developper
 ========================================
 
 All basic concepts explained generically. For detailed understanding provide commented/"hinted" links to source code.

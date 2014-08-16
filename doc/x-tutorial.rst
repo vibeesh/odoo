@@ -1,3 +1,7 @@
 ========================================
-Dedicated PowerUser Tutorial (really needed?)
+Tutorial: PowerUser
 ========================================
+
+(really needed?)
+================
+
