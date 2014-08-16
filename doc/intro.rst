@@ -20,10 +20,11 @@ with our walk-throughs built into the software.
 Structure
 =========
 The structure of the whole documentation (not this document, but the whole documentation topic)
-- This "Homebase"
-- Forum
-- Implementation Partners / Bilateral
-- Walk-Trhough
-- Code
+
+   - This "Homebase"
+   - Forum
+   - Implementation Partners / Bilateral
+   - Walk-Trhough
+   - Code
 
 (By now the structure of this documentation should be clear already, so - althoug the title - not a topic here)
