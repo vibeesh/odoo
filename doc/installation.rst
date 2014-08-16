@@ -11,7 +11,8 @@ Installation of Odoo is really easy. We built a comprehensive library of best
 practices coded into a human readable installation protocol language called Ansible.
 Those protocols are well commented so you might find all the information you need right at the source.
 
-What you need for a kickstart is
+What you need for a kickstart is:
+
 .. code-block:: python
     :linenos:
 
