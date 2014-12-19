@@ -4,7 +4,7 @@
 Odoo Documentation
 ========================================
 
-Welcome to the Odoo Docuemtnation Homebase. Any question that might be left unanswered, you can ask the experts at forum.odoo.com. When you feel ready don't hesitate to contact your nearby implementation partner. (Link)
+Welcome to the Odoo Documentation Homebase. Any question that might be left unanswered, you can ask the experts at forum.odoo.com. When you feel ready don't hesitate to contact your nearby implementation partner. (Link)
 Below, we gathered together the most interesting articles for you. Enjoy the steep learning curve with which we aim to provide you here!
 
 .. note::
