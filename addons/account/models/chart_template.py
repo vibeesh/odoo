@@ -158,9 +158,10 @@ class AccountChartTemplate(models.Model):
         """
         JournalObj = self.env['account.journal']
         for vals_journal in self._prepare_all_journals(acc_template_ref, company, journals_dict=journals_dict):
-            journal = JournalObj.create(vals_journal)
+            journal_id = self.create_record_with_xmlid(
+                company, Journal, 'account.journal', vals_journal)
             if vals_journal['type'] == 'general' and vals_journal['code'] == _('EXCH'):
-                company.write({'currency_exchange_journal_id': journal.id})
+                company.write({'currency_exchange_journal_id': journal_id})
         return True
 
     @api.multi
