@@ -944,7 +944,7 @@ class AccountReconcileModel(models.Model):
         ('percentage', 'Percentage of balance')
         ], required=True, default='percentage')
     amount = fields.Float(digits=0, required=True, default=100.0, help="Fixed amount will count as a debit if it is negative, as a credit if it is positive.")
-    tax_id = fields.Many2one('account.tax', string='Tax', ondelete='restrict', domain=[('type_tax_use', '=', 'purchase')])
+    tax_ids = fields.Many2many('account.tax', string='Taxes', ondelete='restrict', domain=[('type_tax_use', '=', 'purchase')])
     analytic_account_id = fields.Many2one('account.analytic.account', string='Analytic Account', ondelete='set null')
 
     second_account_id = fields.Many2one('account.account', string='Second Account', ondelete='cascade', domain=[('deprecated', '=', False)])
@@ -955,7 +955,7 @@ class AccountReconcileModel(models.Model):
         ('percentage', 'Percentage of amount')
         ], string="Second Amount type",required=True, default='percentage')
     second_amount = fields.Float(string='Second Amount', digits=0, required=True, default=100.0, help="Fixed amount will count as a debit if it is negative, as a credit if it is positive.")
-    second_tax_id = fields.Many2one('account.tax', string='Second Tax', ondelete='restrict', domain=[('type_tax_use', '=', 'purchase')])
+    second_tax_ids = fields.Many2many('account.tax', relation='account_reconcile_model_account_tax_bis_rel', string='Second Taxes', ondelete='restrict', domain=[('type_tax_use', '=', 'purchase')])
     second_analytic_account_id = fields.Many2one('account.analytic.account', string='Second Analytic Account', ondelete='set null')
 
     @api.onchange('name')
